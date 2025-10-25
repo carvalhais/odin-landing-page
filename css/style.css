@@ -131,6 +131,34 @@
     background-position: 50%;
 }
 
+.quote-container {
+    width: 100%;
+    background-color: var(--background-medium);
+    color: var(--foreground-dark);
+}
+
+.quote-content {
+    margin: 0 auto;
+    padding: var(--spacing-6) var(--spacing-4);
+    max-width: var(--narrow-content-width);
+}
+
+.quote-text {
+    width: 85%;
+    margin: 0 auto;
+    font-size: 2.25rem;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-author {
+    width: 85%;
+    margin: 0 auto;
+    font-size: 1.23rem;
+    font-weight: 800;
+    text-align: end;
+}
+
 :root {
     font-size: 100%;
     --font-family-main: Roboto;
@@ -146,7 +174,7 @@
     --regular-content-width: 1152px;
     --narrow-content-width: 1024px;
     --background-light: rgb(255, 255, 255);
-    --background-medium: rgb(233, 229, 231);
+    --background-medium: rgb(229, 231, 235);
     --background-dark: rgb(31, 41, 55);
     --foreground-light-main: rgb(249, 250, 248);
     --foreground-light-discrete: rgb(229, 231, 235);
